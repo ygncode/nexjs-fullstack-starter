@@ -12,6 +12,14 @@
 - Colocate code that changes together
 - Avoid `useEffect` unless absolutely needed
 
+## Next.js
+
+- Mutations (create, update, delete) use Server Actions
+- Data fetching (read) use API Routes + SWR
+- Webhooks use API Routes
+- Server Actions handle form submissions and mutations, while API routes serve as endpoints for client-side data fetching libraries like SWR.
+- Folder structure: colocate `actions.ts` with features for mutations, use `app/api/[resource]/route.ts` for data fetching endpoints
+
 ## Tailwind
 
 - Mostly use built-in values, occasionally allow dynamic values, rarely globals
