@@ -8,6 +8,11 @@ services:
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/app
       - NODE_ENV=development
+      - BETTER_AUTH_SECRET=${BETTER_AUTH_SECRET:-change-me-in-production}
+      - BETTER_AUTH_URL=http://localhost:33333
+      - NEXT_PUBLIC_APP_URL=http://localhost:33333
+      # - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+      # - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
     depends_on:
       db:
         condition: service_healthy
