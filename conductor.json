@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "setup": "docker-compose up -d db",
+    "run": "pnpm run dev"
+  }
+}
