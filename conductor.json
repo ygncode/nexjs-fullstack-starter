@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "setup": "ln -sf \"$CONDUCTOR_ROOT_PATH/.env\" .env && pnpm install && docker-compose -f \"$CONDUCTOR_ROOT_PATH/docker-compose.yml\" up -d db",
+    "setup": "ln -sf \"$CONDUCTOR_ROOT_PATH/.env.local\" .env.local && pnpm install && docker-compose -f \"$CONDUCTOR_ROOT_PATH/docker-compose.yml\" up -d db",
     "run": "pnpm run dev"
   },
   "runScriptMode": "nonconcurrent"
