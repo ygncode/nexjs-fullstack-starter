@@ -54,12 +54,12 @@ This starter includes authentication via better-auth with the following features
 
 - Email/password sign-up and sign-in
 - Session management with secure cookies
-- Protected routes (`/dashboard`, `/settings`)
+- Protected routes (`/user/dashboard`, `/user/settings`)
 - Google OAuth (optional, requires configuration)
 
 ### Protected Routes
 
-Routes under `/dashboard` and `/settings` require authentication. Unauthenticated users are redirected to the sign-in page.
+Routes under `/user/dashboard` and `/user/settings` require authentication. Unauthenticated users are redirected to the sign-in page.
 
 ## Environment Variables
 

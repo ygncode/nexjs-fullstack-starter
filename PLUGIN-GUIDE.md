@@ -4,11 +4,11 @@ This project uses Claude Code plugins to enhance the development workflow.
 
 ## Installed Plugins
 
-| Plugin | Purpose |
-|--------|---------|
-| `feature-dev` | 7-phase guided feature development workflow |
+| Plugin            | Purpose                                         |
+| ----------------- | ----------------------------------------------- |
+| `feature-dev`     | 7-phase guided feature development workflow     |
 | `frontend-design` | Production-grade UI with distinctive aesthetics |
-| `code-review` | Multi-agent PR review with confidence scoring |
+| `code-review`     | Multi-agent PR review with confidence scoring   |
 
 ## Installation
 
@@ -35,11 +35,13 @@ A structured 7-phase workflow for developing new features:
 7. **Documentation** - Update docs if needed
 
 **When to use:**
+
 - Building new features
 - Implementing complex functionality
 - When you want structured guidance through development
 
 **Usage:**
+
 ```
 /feature-dev
 ```
@@ -49,12 +51,14 @@ A structured 7-phase workflow for developing new features:
 Multi-agent PR review with confidence scoring.
 
 **Usage:**
+
 ```
 /code-review           # Review current changes
 /code-review --comment # Review and post comments to PR
 ```
 
 **Features:**
+
 - Multiple specialized review agents
 - Confidence scoring for findings
 - Actionable feedback
@@ -64,6 +68,7 @@ Multi-agent PR review with confidence scoring.
 Automatically activated when working on frontend code. Creates distinctive, production-grade interfaces with high design quality.
 
 **Capabilities:**
+
 - Generates creative, polished UI code
 - Avoids generic AI aesthetics
 - Production-ready components
@@ -72,8 +77,8 @@ This skill activates automatically when building web components, pages, or appli
 
 ## Quick Reference
 
-| Command | Description |
-|---------|-------------|
-| `/feature-dev` | Start guided feature development |
-| `/code-review` | Review current changes |
-| `/code-review --comment` | Review and comment on PR |
+| Command                  | Description                      |
+| ------------------------ | -------------------------------- |
+| `/feature-dev`           | Start guided feature development |
+| `/code-review`           | Review current changes           |
+| `/code-review --comment` | Review and comment on PR         |

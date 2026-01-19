@@ -15,13 +15,13 @@ export default async function ProtectedLayout({
         <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4">
           <nav className="flex items-center gap-6">
             <Link
-              href="/dashboard"
+              href="/user/dashboard"
               className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
             >
               Dashboard
             </Link>
             <Link
-              href="/settings"
+              href="/user/settings"
               className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
             >
               Settings

@@ -46,7 +46,7 @@ export default async function DashboardPage() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="/settings"
+                  href="/user/settings"
                   className="text-primary hover:text-primary/80 transition-colors"
                 >
                   Update profile
@@ -54,7 +54,7 @@ export default async function DashboardPage() {
               </li>
               <li>
                 <a
-                  href="/settings"
+                  href="/user/settings"
                   className="text-primary hover:text-primary/80 transition-colors"
                 >
                   Change password

@@ -43,14 +43,14 @@ export default function SignUpPage() {
       return;
     }
 
-    router.push("/dashboard");
+    router.push("/user/dashboard");
   }
 
   async function handleGoogleSignUp() {
     setError(null);
     await signIn.social({
       provider: "google",
-      callbackURL: "/dashboard",
+      callbackURL: "/user/dashboard",
     });
   }
 
